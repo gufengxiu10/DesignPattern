@@ -43,6 +43,12 @@ abstract class create
 
 class qqCreate extends create
 {
+    /**
+     * @name: 实例估
+     * @param {*}
+     * @author: ANNG
+     * @return {*}
+     */
     public function factoryMethod(): signal
     {
         return (new qq($this->account, $this->password));
